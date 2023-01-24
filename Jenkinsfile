@@ -8,5 +8,11 @@ pipeline {
       }
     }
 
+    stage('Deploy') {
+      steps {
+        echo 'Hi Test deployed now'
+      }
+    }
+
   }
 }
