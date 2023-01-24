@@ -14,5 +14,13 @@ pipeline {
       }
     }
 
+    stage('Build') {
+      steps {
+        sh '''sh \'date\'
+
+sh \'pwd\''''
+      }
+    }
+
   }
 }
